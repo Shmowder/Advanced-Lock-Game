@@ -384,12 +384,12 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_RXD
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to IRDA_TXD
 
 #============================================================
-# KEY
+# nKEY
 #============================================================
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to nKEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to nKEY[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to nKEY[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to nKEY[3]
 
 #============================================================
 # LEDR
@@ -657,10 +657,10 @@ set_location_assignment PIN_AA25 -to HEX5[6]
 
 set_location_assignment PIN_AA30 -to IRDA_RXD
 set_location_assignment PIN_AB30 -to IRDA_TXD
-set_location_assignment PIN_AA14 -to KEY[0]
-set_location_assignment PIN_AA15 -to KEY[1]
-set_location_assignment PIN_W15 -to KEY[2]
-set_location_assignment PIN_Y16 -to KEY[3]
+set_location_assignment PIN_AA14 -to nKEY[0]
+set_location_assignment PIN_AA15 -to nKEY[1]
+set_location_assignment PIN_W15 -to nKEY[2]
+set_location_assignment PIN_Y16 -to nKEY[3]
 set_location_assignment PIN_V16 -to LEDR[0]
 set_location_assignment PIN_W16 -to LEDR[1]
 set_location_assignment PIN_V17 -to LEDR[2]
