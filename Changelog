@@ -1,0 +1,15 @@
+All notable changes to this project will be documented in this file.
+
+2026.05.05
+V1.0.2
+Updated test.qsf
+-key names changed
+
+2026.05.03
+V1.0.1
+Updated test.qsf
+-changed button to active high
+
+2026.05.01
+V1.0.0
+Uploadded initial test.qsf file
